@@ -8,13 +8,11 @@ def calc():
         print("\n" "Welcome to the simplest calculator!" "\n")
     
     try:
-        x = input("Your first number: ")
-        x = int(x)
+        x = int(input("Your first number: "))
 
         z = input("Your action: ")
 
-        y = input("Your Second number: ")
-        y = int(y)
+        y = int(input("Your Second number: "))
 
     except ValueError:
         print("\n" "Please enter only one digit in each number and nothing else!" "\n")
